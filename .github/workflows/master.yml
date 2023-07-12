@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.giga-home-improvement.com
-        username: ${{ secrets.ftp_username }}
+        username: ${{ secrets.ftp_username_master }}
         password: ${{ secrets.ftp_password }}
         server-dir: /home/gigaymgl/master.giga-home-improvement.com
