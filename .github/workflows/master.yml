@@ -17,4 +17,4 @@ jobs:
         server: ftp.giga-home-improvement.com
         username: ${{ secrets.FTP_USERNAME_MASTER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /home/gigaymgl/master.giga-home-improvement.com
+        server-dir: /home/gigaymgl/master.giga-home-improvement.com/
